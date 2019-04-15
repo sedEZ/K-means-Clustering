@@ -3,8 +3,15 @@ Implement K-means clustering , and compare the performance to sklearn.cluster.KM
 
 I write it as an object that you can easily use it.
 
+## Settings
+-Number of clusterings(K) : Max value of labels + 1 -> Range from [0,np.amax(data_y)]
+ 
+-Number of dimentions(DIM) : Number of features
+
+-Method of initializing the K centroids: Randomly picked K points of data in data_x as centroids
+
 ## Data Preprocessing
- I need your help for 3 settings:
+ I need your help for another 3 settings:
  
  - data_x : The table consists of all the feature that to be train.
             It's format should be "pandas.DataFrame".   
