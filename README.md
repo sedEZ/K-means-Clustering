@@ -12,7 +12,9 @@ I write it as an object that you can easily use it.
  - data_y : The table consists of all the feature that to be train.
             It's format should be "numpy.array".        
          
- - Simulate_time : The # of times you want to run for.       
+ - Simulate_time : The # of times you want to run for. 
+ 
+ (Note: Sorry but only numbers available:( )
 
 ## Performance
 print(result.acc) for checking average accuracy!
