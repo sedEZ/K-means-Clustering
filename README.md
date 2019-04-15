@@ -14,7 +14,7 @@ I write it as an object that you can easily use it.
          
  - Simulate_time : The # of times you want to run for. 
  
- (Note: Sorry but only numbers available:( )
+ Note: Sorry but only numbers available:(
 
 ## Performance
 print(result.acc) for checking average accuracy!
