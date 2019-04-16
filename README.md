@@ -10,6 +10,11 @@ I write it as an object that you can easily use it.
 
 -Method of initializing the K centroids: Randomly picked K points of data in data_x as centroids
 
+## Datasets used in this code
+-Abalone dataset  
+
+-sklearn iris dataset
+
 ## Data Preprocessing
  I need your help for another 3 settings:
  
