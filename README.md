@@ -1,7 +1,12 @@
 # K-means-Clustering
-Implement K-means clustering , and compare the performance to sklearn.cluster.KMeans().
+Implment K-means clustering by my own , and compare the performance to sklearn.cluster.KMeans().
 
 I write it as an object that you can easily use it.
+
+## Useage
+Open k_means.ipynb with jupyter notebook.
+
+numpy,pandas,sklearn are required.
 
 ## Settings
 -Number of clusterings(K) : Max value of labels + 1 -> Range from [0,np.amax(data_y)]
@@ -37,3 +42,7 @@ At the end of the code, I run sklearn.cluster.KMeans and checks its accuracy.
 The functions used on it are the same with functions used in class "our_k_means".
 
 (To postprocess the clustering, like calculate mass & relabel)
+
+## Reference
+
+http://edisonx.pixnet.net/blog/post/84122954-%5Bai%5D-c-%E8%AA%9E%E8%A8%80-kmean-%E6%BC%94%E7%AE%97%E6%B3%95
