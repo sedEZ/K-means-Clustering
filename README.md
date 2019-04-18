@@ -24,7 +24,7 @@ numpy,pandas,sklearn are required.
  I need your help for another 3 settings:
  
  - data_x : The table consists of all the feature that to be train.
-            It's format should be "pandas.DataFrame".   
+            It's format should be either "pandas.DataFrame" or "numpy.array".   
          
  - data_y : The table consists of all the feature that to be train.
             It's format should be "numpy.array".        
